@@ -22,7 +22,7 @@ Touch
 git version 2.15.0
 
 # 8 - Why would you run the command 'git status'?
-This will show
+This will show if there have been any modifications to the files or folders.  Items shown it red have not yet been committed.  Once the git add . Command is done, then all changes should show as green.
 
 # 9 - What does the command 'git add .' do?
 This stages all the files and changes you have made  
