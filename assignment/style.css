@@ -26,6 +26,10 @@ h3 {
 h3:hover {
   text-decoration: underline;
 }
+
+h3:hover + #facts {
+  display: inline-block;
+}
 /* Make your p tag a different color and italic */
 p {
   font-family: helvetica, arial, sans-serif;
@@ -47,11 +51,6 @@ p {
   border-width: 8px;
   border-radius: 8px;
 }
-
-#blanier:hover {
-  border-color: slategrey;
-}
-
 /* Change the font-family of your list */
 #list {
   display: block;
@@ -64,7 +63,12 @@ p {
   font-family: courier, arial, sans-serif;
   text-align: center;
   list-style-position: inside;
+  display: none;
+  background-color: ivory;
+  margin: 10px;
+  padding: 10px;
 }
+
 footer {
   background-color: black;
   margin: 0;
