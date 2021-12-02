@@ -13,7 +13,7 @@ Cd ..
 Mkdir
 
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
-You would not get any response if there were no files in the folder.  If files were present, then a list of the files would be presented.
+You would not get any response if there were no files in the folder.  If files were present, then a list of the folders and files would be presented.
 
 # 6 - What is a quick way to create a new file?
 Touch 
