@@ -1,11 +1,72 @@
+
 /* Give your page a fun background color */
-
+body {
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+}
 /* Make the header and footer a different color from the background */
-
+header {
+  background-color: black;
+  margin: 0;
+  padding: 5px;
+}
 /* Align the h1 containing your name in the center of the header*/
+h1 {
+  color: antiquewhite;
+  font-family: Helvetica, courier, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
 
+h3 {
+  font-weight: bold;
+}
+
+h3:hover {
+  text-decoration: underline;
+}
 /* Make your p tag a different color and italic */
-
+p {
+  font-family: helvetica, arial, sans-serif;
+  font-style: italic;
+  font-size: 28px;
+  color: antiquewhite;
+  text-align: center;
+}
 /* Put a border around your image */
+#blanier {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 254;
+  height: 378;
+  border-style: solid;
+  border-color: ivory;
+  border-width: 8px;
+  border-radius: 8px;
+}
+
+#blanier:hover {
+  border-color: slategrey;
+}
 
 /* Change the font-family of your list */
+#list {
+  display: block;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+#facts {
+  font-family: courier, arial, sans-serif;
+  text-align: center;
+  list-style-position: inside;
+}
+footer {
+  background-color: black;
+  margin: 0;
+  padding: 7px;
+}
