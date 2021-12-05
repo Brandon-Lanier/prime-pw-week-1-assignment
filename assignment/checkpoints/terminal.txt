@@ -25,7 +25,7 @@ git version 2.15.0
 This will show if there have been any modifications to the files or folders.  Items shown it red have not yet been committed.  Once the git add . Command is done, then all changes should show as green.
 
 # 9 - What does the command 'git add .' do?
-This stages all the files and changes you have made.  This must be committing to the changes.
+This stages all the files and changes you have made.  Essentially this saves the work you have done.  This must be done prior to committing the changes.
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
-Git push orgin master
+Git push origin master
